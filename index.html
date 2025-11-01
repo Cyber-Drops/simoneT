@@ -2,12 +2,222 @@
 <html lang="en">
 <!--PAGINA ABOUT ME-->
 <!--MAPPATURA COMPLETA AREE SITO-->
+<!--xxl(monitor studio e notebook); col (smartphone classic); md (smartphone classic orizzontale)-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <link rel="stylesheet" href="./css/bootstrap_css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom_css.css">
+    <script src="./js/bootstrap_js/bootstrap.js"></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <title>ABOUT ME</title>
 </head>
+
 <body>
-    <h1>WORK IN PROGRESS</h1>
+    <!--PAGE HEADER-->
+    <div class="container">
+        <!--Page Header (intestazione)-->
+        <div class="row">
+            <div class="col-12 col-sd-1 col-md-6 col-xxl-6">
+                <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic">SIMONE TEMPESTA</span></h1>
+            </div>
+            <div class="col-12 col-sd-1 col-md-6 col-xxl-6">
+                <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic">Penetration tester e soc analyst</span></h1>
+            </div>
+        </div>
+        <!--Page Header (Navigation Bar)-->
+        <div class="row">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class=" col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="text-align: end;">
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px; text-align: center; href="#">FORMAZIONE</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px; href="./v/ctf.html">&nbsp&nbsp&nbsp&nbsp&nbspCTF&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">&nbsp&nbsp&nbspEXTRA&nbsp&nbsp&nbsp</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">IOT</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">PROGETTI</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">LABORATORI</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="./v/contatti.html">&nbspCONTATTI&nbsp</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--Sezione Foto-->
+    <div class="container-fluid">
+        <div class="row-cols-2 row-cols-md-2 row-cols-xl-1 row-cols-xxl-1">
+            <!--Foto e Tasto Download CV-->
+            <div class="col-10 col-md-4 col-xl-3 col-xxl-3 ps-5 pt-2 pt-md-0 pt-xl-5 pt-xxl- float-start">
+                <div class="ratio ratio-1x1">
+                    <img  src="./media/img/BuonaSfondoBlue.png" class="rounded-5" alt="Simone primo piano">
+                </div>
+                <div class="row d-sm-none d-md-block d-xl-block d-xxl-block">
+                   <a href="./media/file/CV_Simone_Tempesta_24-10-2025.pdf" class="btn btn-outline-info fw-bold" download="CV_Simone_Tempesta_24-10-2025.pdf">DOWNLOAD&nbsp; &nbsp;CV</a>
+                </div>
+                <div>
+                    <!--TODO:
+                    1) Inserire Pulsante di collegamento a Linkeding
+                    2) Inserire Pulsante di collegamento GitHub
+                    3) Inserire il Badge di THM (Dinamico)
+                    -->
+                </div>
+            </div>
+            <!--Sezione Card Scritta, skill matrix, logica del nascondi in base al display classe: d-ecc -->
+            <div class="col-10 col-md-8 col-xl-9 col-xxl-9 ps-5 pt-2 pt-md-1 pt-xl-5 pt-xxl-2 float-start">
+                <!--Sezione Card Scritta, display mobile verticale-->
+                <div class="card d-block d-md-none" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-5">ABOUT ME</h5>
+                        <p class="card-text fst-italic fs-6">“Cybersecurity enthusiast con un background consolidato nell'IT Support. La mia competenza non è solo teorica: partecipo regolarmente a CTF su Hack The Box e Try Hack Me per affinare le mie skill. Possiedo solide basi di Networking e Programmazione, inoltre sono fortemente motivato.”</p>
+                    </div>  
+                </div>
+                <!--Sezione Card Scritta, tablet e smartphone landscape-->
+                <div class="card d-none d-sm-none d-md-block d-xl-none d-xxl-none float-start" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">ABOUT ME</h5>
+                        <p class="card-text fst-italic fs-6">“Cybersecurity enthusiast con un background consolidato nell'IT Support. La mia competenza non è solo teorica: partecipo regolarmente a CTF su Hack The Box e Try Hack Me per affinare le mie skill. Possiedo solide basi di Networking e Programmazione, inoltre sono fortemente motivato.”</p>
+                    </div>  
+                </div>
+                <!--Sezione Card Scritta, diplay pc -->
+                <div class="card d-none d-sm-none d-md-none d-xl-block d-xxl-block float-start" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-2">ABOUT ME</h5>
+                        <br>
+                        <p class="card-text fst-italic fs-4 ">“Cybersecurity enthusiast, con esperienza pluriennale nell’ Assistenza IT, una forte passione per l’ethical hacking e la sicurezza delle infrastrutture. Con una solida base di conoscenze in Cybersecurity, Networking e Programmazione. Fortemente orientato al continuo apprendimento, con partecipazione regolare ad attività di Capture The Flag su piattaforme come Hack The Box e Try Hack Me.”</p>
+                        <br>
+                    </div>  
+                </div>
+                <!--Carousel Display grande-->
+                <div class="row d-none d-md-none d-xl-block d-xxl-block w-50 position-absolute end-0">
+                    <div id="carouselAutoplaying" class="carousel w-75" data-bs-ride="carousel">
+                        <div class="carousel-inner ">
+                            <!--
+                            <div class="carousel-item active">
+                                <p>&nbsp; </p>
+                                <p>&nbsp; </p>
+                                <a href="http://www.linkedin.com/in/simone-tempestacyber-drops"><img class="w-100 bg-black bg-opacity-25" src="./media/img/LI-Logo.png" alt="Linkedin logo" /> Click Me </a>
+                            </div>
+                            <div class="carousel-item">
+                                <p>&nbsp; </p>
+                                <p>&nbsp; </p>
+                                 <img class="w-100" src="https://tryhackme-badges.s3.amazonaws.com/cyberdrops.png" alt="THM badge" />
+                            </div>
+                            -->
+                            <div class="carousel-item active">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_found.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Foundational </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_pt.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. P. T. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_sec_analyst.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Security Analyst </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_sec_eng.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Security Engineer </p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!--Carousel Display smartphone Verticale-->
+                <div class="row d-block d-md-none d-xl-none d-xxl-none w-100 float-start">
+                    <div id="carouselAutoplaying" class="carousel w-100" data-bs-ride="carousel">
+                        <div class="carousel-inner ">
+                            <!--
+                            <div class="carousel-item active">
+                                <p>&nbsp; </p>
+                                <p>&nbsp; </p>
+                                <a href="http://www.linkedin.com/in/simone-tempestacyber-drops"><img class="w-100 bg-black bg-opacity-25" src="./media/img/LI-Logo.png" alt="Linkedin logo" /> Click Me </a>
+                            </div>
+                            <div class="carousel-item">
+                                <p>&nbsp; </p>
+                                <p>&nbsp; </p>
+                                 <img class="w-100" src="https://tryhackme-badges.s3.amazonaws.com/cyberdrops.png" alt="THM badge" />
+                            </div>
+                            -->
+                            <div class="carousel-item active">                                
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_found.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Foundational </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_pt.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. P. T. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_sec_analyst.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Security Analyst </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_sec_eng.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Security Engineer </p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!--Carousel Display smartphone Orizzontale E +/- Tablet-->
+                <div class="row d-none d-md-block d-xl-none d-xxl-none w-50 float-end">
+                    <div id="carouselAutoplaying" class="carousel w-100" data-bs-ride="carousel">
+                        <div class="carousel-inner ">
+                            <!--
+                            <div class="carousel-item active">
+                                <p>&nbsp; </p>
+                                <p>&nbsp; </p>
+                                <a href="http://www.linkedin.com/in/simone-tempestacyber-drops"><img class="w-100 bg-black bg-opacity-25" src="./media/img/LI-Logo.png" alt="Linkedin logo" /> Click Me </a>
+                            </div>
+                            <div class="carousel-item">
+                                <p>&nbsp; </p>
+                                <p>&nbsp; </p>
+                                 <img class="w-100" src="https://tryhackme-badges.s3.amazonaws.com/cyberdrops.png" alt="THM badge" />
+                            </div>
+                            -->
+                            <div class="carousel-item active">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_found.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Foundational </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_pt.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. P. T. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_sec_analyst.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Security Analyst </p>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100 rounded-4" src="./media/img/skill_matrix/j_sec_eng.png" alt="THM skill matrix" />
+                                <p>THM Skill Matrix J. Security Engineer </p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </body>
 </html>

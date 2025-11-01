@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--PAGINA ABOUT ME-->
+<!--MAPPATURA COMPLETA AREE SITO-->
+<!--xxl(monitor studio e notebook); col (smartphone classic); md (smartphone classic orizzontale)-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap_css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom_css.css">
+    <script src="../js/bootstrap_js/bootstrap.js"></script>
+    <script src="../js/jquery_js/jquery-3.7.1.min.js"></script>
+    <title>CTF</title>
 </head>
+
 <body>
-    
+    <!--PAGE HEADER-->
+    <div class="container">
+         <!--Page Header (intestazione)-->
+        <div class="row">
+            <div class="col-12 col-sd-1 col-md-6 col-xxl-6">
+                <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic">SIMONE TEMPESTA</span></h1>
+            </div>
+            <div class="col-12 col-sd-1 col-md-6 col-xxl-6">
+                <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic">Penetration tester e soc analyst</span></h1>
+            </div>
+        </div>
+        <!--Page Header (Navigation Bar)-->
+        <div class="row">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class=" col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="text-align: end;">
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px; text-align: center; href="#">FORMAZIONE</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px; href="../index.html">&nbsp&nbsp&nbsp&nbspABOUT ME&nbsp&nbsp&nbsp&nbsp</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">&nbsp&nbsp&nbspEXTRA&nbsp&nbsp&nbsp</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">IOT</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">PROGETTI</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="#">LABORATORI</a>
+                        <a class="btn btn-outline-light btn-sm bg-black bg-opacity-25 fw-bold fst-italic link-primary" role="button" width: 100px href="./v/contatti.html">&nbspCONTATTI&nbsp</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--RIGA CTF CARD TOTALE-->
+        <div class="row">
+            <!--COLONNA CTF RED CARD TOTALE-->
+            <div class="col-6 col-md-6 col-xxl-6 pe-4 float-start">
+                <!--RIGA CARD N_1 CTF RED (Max 2 CARD)-->
+                <div class="row p-1">
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div id="card_1_r" class="card" style="width: auto;">
+                            <img  src="../media/img/ctf/ResetPathGif.gif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                    <!--<a href="#" download="Reset_Room_THM.pdf" class="card-link">Report Download</a>-->
+                                    <a href="https://bit.ly/4hDFuBP" class="card-link">Read Report ENG</a>
+                                    <a href="https://bit.ly/4oR8NDm" class="card-link">Read Report IT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-6 p-1" >
+                        <div id="card_2_r" class="card" style="width: auto;">
+                            <img src="../media/img/work_in_progress_cyber_red.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">WORK IN PROGRESS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--RIGA CARD N_2 CTF RED (Max 2 CARD)-->
+                <div class="row p-1">
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div class="card" style="width: auto;" hidden>
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div class="card" style="width: auto;" hidden>
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--COLONNA CTF BLUE CARD TOTALE-->
+            <div class="col-6 col-md-6 col-xxl-6 ps-4 float-end">
+                <!--RIGA CARD N_1 CTF BLUE (Max 2 CARD)-->
+                <div class="row p-1">
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div id="card_1_b" class="card" style="width: auto;">
+                            <img src="../media/img/work_in_progress_cyber.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div id="card_2_b" class="card" style="width: auto;" >
+                            <img src="../media/img/work_in_progress_cyber.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">WORK IN PROGRESS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--RIGA CARD N_2 CTF BLUE (Max 2 CARD)-->
+                <div class="row p-1">
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div class="card" style="width: auto;" hidden>
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-6 p-1">
+                        <div class="card" style="width: auto;" hidden>
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sezione Foto-->
+    <div class="container-fluid">    
+    </div>
 </body>
+<!--Script jquery per la manipolazione della size delle card-->
+<script>
+    $(document).ready(function(){
+//RED CARD
+        //CARD_1_RED
+        $(document.getElementById("card_1_r"))
+        $(document.getElementById("card_1_r")).mouseover(function(){
+             $(document.getElementById("card_1_r")).css("width", "600px")
+             $(document.getElementById("card_1_r")).addClass("z-3")
+        });
+        $(document.getElementById("card_1_r")).mouseout(function(){
+            $(document.getElementById("card_1_r")).css("width", "auto")
+            $(document.getElementById("card_1_r")).removeClass("z-3")
+        });
+        //CARD_1_RED
+        $(document.getElementById("card_2_r")).mouseover(function(){
+             $(document.getElementById("card_2_r")).css("width", "600px")
+             $(document.getElementById("card_2_r")).addClass("z-3")
+        });
+        $(document.getElementById("card_2_r")).mouseout(function(){
+            $(document.getElementById("card_2_r")).css("width", "auto")
+            $(document.getElementById("card_2_r")).removeClass("z-3")
+        });
+//BLUE CARD
+        //CARD_1_BLUE
+        $(document.getElementById("card_1_b")).mouseover(function(){
+             $(document.getElementById("card_1_b")).css("width", "600px")
+             $(document.getElementById("card_1_b")).addClass("z-3")
+        });
+        $(document.getElementById("card_1_b")).mouseout(function(){
+            $(document.getElementById("card_1_b")).css("width", "auto")
+            $(document.getElementById("card_1_b")).removeClass("z-3")
+        });
+         //CARD_2_BLUE
+        $(document.getElementById("card_2_b")).mouseover(function(){
+             $(document.getElementById("card_2_b")).css("width", "600px")
+             $(document.getElementById("card_2_b")).addClass("z-3")
+        });
+        $(document.getElementById("card_2_b")).mouseout(function(){
+            $(document.getElementById("card_2_b")).css("width", "auto")
+            $(document.getElementById("card_2_b")).removeClass("z-3")
+        });
+
+    });
+</script>
 </html>

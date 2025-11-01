@@ -1,0 +1,11 @@
+/* style.css */
+body {
+    background-image: url('../media/img/mondo_sicuro.png');
+    background-size: cover; /* Copre l'intera area, ritagliando se necessario */
+    background-position: center center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-attachment: fixed; /* Mantiene lo sfondo fisso mentre scorri */
+    min-height: 100vh; /* Assicura che il body occupi almeno l'intera altezza della viewport */
+    color: #f8f9fa; 
+}
+
