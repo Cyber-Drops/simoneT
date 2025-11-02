@@ -14,11 +14,11 @@
 
 <body>
     <!--PAGE HEADER-->
-    <div class="container">
+    <div class="container-fluid">
         <!--Page Header (intestazione)-->
         <div class="row">
             <div class="col-12 col-sd-1 col-md-6 col-xxl-6">
-                <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic">SIMONE TEMPESTA</span></h1>
+                <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic float-end">SIMONE TEMPESTA</span></h1>
             </div>
             <div class="col-12 col-sd-1 col-md-6 col-xxl-6">
                 <h1><span class="badge text-bg-dark bg-opacity-25 fw-bold fst-italic">Penetration tester e soc analyst</span></h1>
@@ -40,18 +40,40 @@
                 </div>
             </nav>
         </div>
-        <!--Sezione Foto-->
+        <!--Sezione CONTATTI-->
         <div class="row">
-            <div class="col-12 col-md-8 col-xxl-6 position-absolute start-50 top-50 translate-middle">
+            <!--Sezione contatti display (smrtphone vertical, pc) -->
+            <div class="col-12 col-xxl-6 d-block d-md-none d-xxl-block position-absolute start-50 top-50 translate-middle">
                 <div class="card bg-transparent" style="width: auto;">
                     <div class="card-body text-center">
-                        <h3 class="card-title text-bg-light">Contact</h5>
-                        <a href="mailto:simone-tempesta@alice.it"><img src="../media/img/email_icon.png" class="rounded-5 pe-xxl-5" alt=""></a>
+                        <h3 class="card-title text-bg-light bg-opacity-50 rounded-2">CONTACT</h3>
+                        <a href="mailto:simone-tempesta@alice.it"><img src="../media/img/email_icon.png" class="rounded-5 pe-xxl-5 pb-4" alt=""></a>
                         <a href="tel:+393779696519"><img src="../media/img/tel_icon.png" class="rounded-5 ps-xxl-5 pb-4" alt=""></a>
-                        <h4 class="card-subtitle mb-2 text-body-secondary fw-bold p-1 text-bg-light">Email: simone-tempesta@alice.it</h6>
-                        <h4 class="card-subtitle mb-2 text-body-secondary fw-bold p-1 text-bg-light">Email: simtemp8@gmail.com</h6>
-                        <h4 class="card-subtitle mb-2 text-body-secondary fw-bold p-1 text-bg-light">Tel: +39 3779696519</h6>
+                        <h4 class="card-subtitle mb-2 fw-bold p-1 text-bg-light text-dark rounded-5 bg-opacity-50">Email: simone-tempesta@alice.it</h4>
+                        <h4 class="card-subtitle mb-2 fw-bold p-1 text-bg-light text-dark  rounded-5 bg-opacity-50">Email: simtemp8@gmail.com</h4>
+                        <h4 class="card-subtitle mb-2 fw-bold p-1 text-bg-light text-dark  rounded-5 bg-opacity-50">Tel: +39 3779696519</h4>
                     </div>
+                </div>
+            </div>
+            <!--Sezione contatti display (smrtphone orizzontal, tablet) -->
+            <div class="col-12 d-none d-md-block d-xxl-none">
+                <div class="row">
+                    <div class="col-md-2">
+                        <a href="mailto:simone-tempesta@alice.it"><img src="../media/img/email_icon.png" class="rounded-5" style="width:auto;" alt=""></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card bg-transparent border-0 ps-5" style="width: auto;">
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-bg-light fw-bold fst-italic bg-opacity-25 rounded-2">CONTACT</h3>
+                                <h4 class="card-subtitle mb-2 mt-3  fw-bold text-bg-light text-black rounded-5 bg-opacity-25">Email: simone-tempesta@alice.it</h4>
+                                <h4 class="card-subtitle mb-2 fw-bold text-bg-light text-black  rounded-5 bg-opacity-25">Email: simtemp8@gmail.com</h4>
+                                <h4 class="card-subtitle mb-2 fw-bold text-bg-light text-black  rounded-5 bg-opacity-25">Tel: +39 3779696519</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="tel:+393779696519"><img src="../media/img/tel_icon.png" class="rounded-5" style="width: auto;" alt=""></a>
+                    </div>    
                 </div>
             </div>
         </div>    
