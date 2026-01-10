@@ -96,7 +96,7 @@
                             <div class="card-body">
                                 <h4> <span class="card-title fw-bold fst-italic text-center">NjRAT</span> <span class="fst-italic">Version 0.7d</span></h4>
                                 <p class="card-text">Laboratorio di analisi statica e dinamica, con simulazione comunicazione con il C2 attraverso script python di alcune funzioni.</p>
-                                <button type="button" class="btn btn-outline-primary" onclick="go_to_lab('njrat_07d')" >GO</button>
+                                <button type="button" class="btn btn-outline-primary" id="njrat07_b">GO</button>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,10 @@
             $(document.getElementById("card_2_b")).css("width", "auto")
             $(document.getElementById("card_2_b")).removeClass("z-3")
         });
+        $(document.getElementById("njrat07_b").onclick(go_to_lab("njrat_07d")));
     });
+
+
 function go_to_lab(lab_name){
             if (lab_name !== null){
                 switch (lab_name){
@@ -190,6 +193,8 @@ function go_to_lab(lab_name){
 
             }
         }
+    
+
 </script>
 
 </html>
