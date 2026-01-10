@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=""></script>
     <link rel="stylesheet" href="../css/bootstrap_css/bootstrap.css">
     <link rel="stylesheet" href="../css/custom_css.css">
     <script src="../js/bootstrap_js/bootstrap.js"></script>
@@ -176,7 +177,8 @@
             $(document.getElementById("card_2_b")).css("width", "auto")
             $(document.getElementById("card_2_b")).removeClass("z-3")
         });
-        function go_to_lab(lab_name){
+    });
+function go_to_lab(lab_name){
             if (lab_name !== null){
                 switch (lab_name){
                     case "njrat_07d":
@@ -188,7 +190,6 @@
 
             }
         }
-
-    });
 </script>
+
 </html>
