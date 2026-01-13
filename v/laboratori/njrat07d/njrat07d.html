@@ -8,21 +8,150 @@
     <script src="../../../js/jquery_js/jquery-3.7.1.min.js"></script>
     <title>NjRAT07d_Lab</title>
 </head>
-<body style="background-color: bisque;">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                d<img src="../njrat07d/media/titolo.png" alt="">
+<body  style="background-color: bisque;">
+    <div class="container" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        <div class="row pt-1">
+            <div class="col-2">
+                <!--Colonna Sx Titolo-->
+                <img src="..." class="img-thumbnail" alt="...">
+            </div>
+            <div class="col-8 text-center" >
+                <img class="w-100 rounded-4 pb-3" src="../njrat07d/media/sfondo_njrat_malware.png" alt="" style="opacity: 0.7;">
+            </div>
+            <div class="col-2">
+                <h1 class=" bs.h1" >LABORATORIO DI MALWARE</h1>
+                <!--Colonna Dx Titolo-->
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                d
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam debitis ut accusantium alias! Eius voluptatem aperiam quidem quaerat qui praesentium error, eos officiis, recusandae dolore deleniti quis, non ipsa cumque!</p>
+                <div class="container card" style="background-color: lightgray;">
+                    <h4 class="card-title">LAB IDENTIKIT</h4>
+                    <ul>
+                        <p>Target: Studio di NjRAT v 0.7d</p>
+                        <p>Tipo: Remote Access Trojan / Info Stealer</p>
+                        <p>Strumenti utilizzati:</p>
+                            <ul>
+                                <li>PEstudio</li>
+                                <li>SystemInformer</li>
+                                <li>dnspy</li>
+                                <li>netcat</li>
+                                <li>whireshark</li>
+                                <li>python</li>
+                            </ul>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
-                d
+            <div class="col-8">
+                <div class="container card" style="overflow: auto; background-color: lightgray;">
+                    <h4 class="card-title">MITRE ATT&CK</h4>
+                    <div >
+                        <img class="card-img" id="mitreAttack" src="../njrat07d/media/mitreAttack.svg" alt="">
+                        <a href="../njrat07d/media/mitreAttack.json" download style="color:darkgreen">Download mitreAttack.json</a>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="row pt-2 pb-2">
+            <h2 class="text-center">BREVE STORIA DEL LABORATORIO</h2>
+            <div class="col">
+                <p>Il laboratorio ha l'obiettivo di eseguire un analisi di un malware, in questo caso di NjRAT, la versione prescelta e' la 0.7d, detta anche Classic.Partendo da questa versione, poi negli anni ha avuto un evoluzione, portando a dei miglioramenti del keylogger, evasion, ecc... </p>
+                <p>Ecco una serie di video che riassumono gli eventi chiave del laboratorio.</p>
+            </div>
+            <div class="row pt-1">
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/1_NjRAT_intro.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Introduzione</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/2_NjRAT_init.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Inizializzazione</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/3_NjRAT_kl.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Kelogger C2 = kl</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/4_NjRAT_capt.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Screen C2 = CAP...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-1">
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/5_NjRAT_Reg.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Reg Key C2 = proof...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/6_NjRAT_cDw_Ex.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Download/Exec C2 = rn...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                   <div class="card">
+                        <video controls muted>
+                            <source src="../njrat07d/media/7_NjRAT_Clean.mp4" type="video/mp4">
+                        </video>
+                        <div class="card-subtitle">
+                        <p>Clean C2 = un...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pb-2">
+            <h3>FLUSSO DI LAVORO</h3>
+            <p>Si inizia con il download ed importazione sicura nella macchina </p>
+            <p>Da terminare</p>
+        </div>
+
     </div>
 </body>
+<script>
+    $(document).ready(function(){
+        $('#mitreAttack').hover(function(){
+            $(this).css('cursor', 'zoom-in')
+        });
+        $('#mitreAttack').click(function(){
+            window.open('../njrat07d/media/mitreAttack.svg','MitreAttack','_parent,fullscreen=yes')
+        });
+    });
+</script>
 </html>
